@@ -4,10 +4,10 @@ build-backend = "hatchling.build"
 
 [project]
 name = "plot-style-ajc"
-description = ''
+description = 'My personal plotting styles.'
 readme = "README.md"
 requires-python = ">=3.7"
-license = "MIT"
+license = "Unlicense"
 keywords = []
 authors = [
   { name = "anthonyjclark", email = "anthonyjclark@gmail.com" },
@@ -27,9 +27,9 @@ dependencies = []
 dynamic = ["version"]
 
 [project.urls]
-Documentation = "https://github.com/unknown/plot-style-ajc#readme"
-Issues = "https://github.com/unknown/plot-style-ajc/issues"
-Source = "https://github.com/unknown/plot-style-ajc"
+Documentation = "https://github.com/anthonyjclark/plot-style-ajc#readme"
+Issues = "https://github.com/anthonyjclark/plot-style-ajc/issues"
+Source = "https://github.com/anthonyjclark/plot-style-ajc"
 
 [tool.hatch.version]
 path = "plot_style_ajc/__about__.py"
